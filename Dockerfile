@@ -31,7 +31,14 @@ COPY . .
 RUN chmod 777 alive.sh
 RUN chmod 777 start.sh
 
-RUN useradd -ms /bin/bash  myuser
-USER myuser
+RUN useradd -ms /bin/bash  hackmonker
+USER hackmonker
+
+RUN -u postgres bash
+RUN createdb tortk
+RUN psql
+RUN ALTER USER postgres with password 'your-pass';
+RUN exit
+RUN exit 
 
 CMD ./start.sh
