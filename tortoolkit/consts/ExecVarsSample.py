@@ -5,10 +5,10 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "127f513c98d12528003870b7459f575f"
+        API_ID = 1084628 
+        BOT_TOKEN = "1546072923:AAG6SG9Lk4DoI70luCA9A6Oskmbj-jKfJ9E"
+        BASE_URL_OF_BOT = "t.me/omaiwa_bot"
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = []
         
@@ -28,7 +28,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "dbname=tortk user=postgres password=IAMHERO1234 host=127.0.0.1 port=5432"
         
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
