@@ -41,6 +41,6 @@ RUN ALTER USER postgres with password IAMHERO;
 RUN exit
 RUN exit
 
-RUN export PORT=80
+RUN export PORT=8080
 
 CMD ./start.sh
