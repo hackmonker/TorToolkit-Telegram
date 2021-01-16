@@ -37,7 +37,7 @@ USER hackmonker
 RUN -u postgres bash
 RUN createdb tortk
 RUN psql
-RUN ALTER USER postgres with password 'your-pass';
+RUN ALTER USER postgres with password 'IAMHERO';
 RUN exit
 RUN exit 
 
