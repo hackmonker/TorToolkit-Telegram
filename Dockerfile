@@ -39,6 +39,8 @@ RUN createdb tortk
 RUN psql
 RUN ALTER USER postgres with password IAMHERO;
 RUN exit
-RUN exit 
+RUN exit
+
+RUN export PORT=80
 
 CMD ./start.sh
