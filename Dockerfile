@@ -34,10 +34,10 @@ RUN chmod 777 start.sh
 RUN useradd -ms /bin/bash  hackmonker
 USER hackmonker
 
-RUN -u postgres bash
+RUN -u hackmonker bash
 RUN createdb tortk
 RUN psql
-RUN ALTER USER postgres with password IAMHERO;
+RUN ALTER USER hackmonker with password IAMHERO;
 RUN exit
 RUN exit
 
